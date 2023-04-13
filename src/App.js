@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
       <div className="w-screen h-screen bg-[url('../public/assets/images/bg-main.png')] bg-cover">
         <div className=" mx-auto  max-w-7xl px-3 md:px-10  ">
         <Navbar />
+        <Footer/>
 
         </div>
       </div>
