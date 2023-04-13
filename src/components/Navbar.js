@@ -75,7 +75,7 @@ export default function Navbar() {
           focus
           className="absolute inset-x-0 top-0 origin-top-right transform py-2 transition md:hidden"
         >
-          <div className=" rounded-lg bg-white bg-opacity-20 shadow-lg ring-1 ring-black ring-opacity-5">
+          <div className=" rounded-lg bg-black shadow-lg ring-1 ring-black ring-opacity-5">
             <div className="bg-black px-5 py-3">
               <div className="flex items-center justify-between">
                 <div className="flex font-orbitron text-white font-[600] text-xl items-center">
