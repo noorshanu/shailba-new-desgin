@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <div className="grid mt-10 sm:grid-cols-5 w-full pb-16 place-items-center">
       <div className="flex h-full flex-row sm:flex-col justify-between items-center sm:w-auto w-full">
-        <div className=" group">
+        <div className=" group relative">
           <img
             src="/assets/images/fox1.svg"
             className="h-auto w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
@@ -17,7 +17,7 @@ const Main = () => {
           />
           <img
             src="/assets/images/hoverBox.png"
-            className="hidden group-hover:flex md:static absolute bottom-[12rem] sm:bottom-[8rem]"
+            className="hidden group-hover:flex  absolute bottom-[-8rem] sm:bottom-[-4.5rem] md:bottom-[-11rem]"
           />
         </div>
 
@@ -64,7 +64,7 @@ const Main = () => {
           />
           <img
             src="/assets/images/hoverBox2.png"
-            className="hidden group-hover:flex md:static absolute top-[-7rem]"
+            className="hidden group-hover:flex  absolute bottom-[-4.5rem]"
           />
         </div>
         <div className="group relative">
