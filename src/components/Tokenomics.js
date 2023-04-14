@@ -1,4 +1,5 @@
 import React from "react";
+import {AiOutlineLineChart} from 'react-icons/ai'
 
 const Tokenomics = () => {
   return (
@@ -16,7 +17,7 @@ const Tokenomics = () => {
       </div>
 
       <div className="grid grid-cols-2 mt-20 place-content-center place-items-center">
-        <div className="bg-[url('/public/assets/images/tokenomic-box.png')] sm:bg-cover h-[460px] w-[518px] pt-20  pl-20">
+        <div className="bg-[url('/public/assets/images/tokenomic-box.png')] sm:bg-cover h-[460px] w-[518px] pt-20  pl-20 relative">
           <ol className="text-white text-sm font-poppins space-y-2 list-disc">
             <li>Price: $0.00001</li>
             <li>Vesting round: 70% at TGE</li>
@@ -28,8 +29,10 @@ const Tokenomics = () => {
             <li>Hardcap: $40,000</li>
             <li>Total supply: 7,019,999,999,999</li>
           </ol>
+          <div className="text-white text-[4rem] font-poppins absolute top-[82%] left-[51px]"><AiOutlineLineChart/></div>
+          
         </div>
-        <img src="/assets/images/chart.png"/>
+        <img src="/assets/images/chart.png" alt=""/>
       </div>
     </div>
   );
