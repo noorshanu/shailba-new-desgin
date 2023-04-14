@@ -14,3 +14,13 @@
 body{
   overflow-x: hidden;
 }
+.blue-grad{
+  position: absolute;
+  background: #13013E;
+  filter: blur(26.5px);
+  width: 100%;
+  height: 118px;
+  margin-top: -66px;
+  overflow: hidden;
+  left: 0px;
+}
