@@ -7,7 +7,7 @@ const Roadmap = () => {
     <div className="blue-grad">
 
     </div>
-     <div className="pt-10 z-10">
+     <div className="pt-28 z-10">
 
 <div className=" text-center  text-white flex flex-col justify-center">
   <h1 className="text-3xl font-orbitron font-bold md:w-[600px] mx-auto">

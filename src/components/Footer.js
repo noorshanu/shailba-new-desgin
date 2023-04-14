@@ -3,7 +3,7 @@ import {FaTwitter,FaTelegramPlane} from 'react-icons/fa'
 function Footer() {
   return (
     <section>
-        <div className='footer container px-44 pb-6'>
+        <div className='footer container px-44 pb-6 pt-14'>
             <div className='text-center m-auto flex justify-center'>
                 <img src="/assets/logos/footer-logo.svg" alt=''/>
 
