@@ -3,7 +3,7 @@ import React from "react";
 const Main = () => {
   return (
     <div className="grid mt-10 sm:grid-cols-5 w-full pb-16 place-items-center">
-      <div className="flex h-full flex-row sm:flex-col justify-between sm:w-auto w-full">
+      <div className="flex h-full flex-row sm:flex-col justify-between items-center sm:w-auto w-full">
         <div className=" group">
           <img
             src="/assets/images/fox1.svg"
@@ -11,7 +11,7 @@ const Main = () => {
             alt=""
           />
           <img
-            src="/assets/images/fox-sm-1.png"
+            src="/assets/images/fox-sm-1.svg"
             className="h-auto w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
@@ -28,8 +28,8 @@ const Main = () => {
             alt=""
           />
           <img
-            src="/assets/images/fox-sm-2.png"
-            className="h-auto w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            src="/assets/images/fox-sm-2.svg"
+            className="h-auto w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
           <img
@@ -45,7 +45,7 @@ const Main = () => {
           alt=""
         />
         <img
-          src="/assets/images/main-fox-sm.png"
+          src="/assets/images/main-fox-sm.svg"
           className="h-[auto] w-full self-center flex sm:hidden px-[30px]"
           alt=""
         />
@@ -58,8 +58,8 @@ const Main = () => {
             alt=""
           />
           <img
-            src="/assets/images/fox-sm-3.png"
-            className="h-auto w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            src="/assets/images/fox-sm-3.svg"
+            className="h-auto w-44 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
           <img
@@ -75,7 +75,7 @@ const Main = () => {
           />
           <img
             src="/assets/images/hoverBox4.png"
-            className="hidden group-hover:flex  absolute top-[-7rem]"
+            className="hidden group-hover:flex  absolute bottom-[-7rem]"
           />
         </div>
       </div>

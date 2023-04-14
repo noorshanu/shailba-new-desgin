@@ -6,21 +6,21 @@ function Footer() {
       
       <div className="mt-20 flex flex-col">
         <div className="px-5 mx-auto max-w-[30rem] w-full">
-          <div className="flex justify-between w-full items-center">
+          <div className="flex justify-between sm:justify-center w-full items-center">
             <img src="/assets/logos/logo.svg" />
-            <div className="flex text-white">
+            <div className="flex sm:hidden text-white">
               <FaTelegramPlane className="mr-3" />
               <FaTwitter />
             </div>
           </div>
-          <div className="mt-7 flex justify-between items-center flex-wrap text-center font-orbitron text-white text-lg">
+          <div className="mt-7 flex justify-between items-center flex-wrap text-center font-orbitron text-white text-sm sm:text-lg">
             <p>About Us</p>
             <p>Tokenomics</p>
             <p>Roadmap</p>
           </div>
         </div>
         <img src="/assets/images/line.png" className="w-full h-auto my-16" />
-        <div className="my-7 flex justify-between items-center flex-wrap font-orbitron text-[#CCD2E9] text-[9px] sm:text-base">
+        <div className="mb-7 flex justify-between items-center flex-wrap font-orbitron text-[#CCD2E9] text-[9px] sm:text-base">
           <div className="hidden sm:flex text-white text-lg">
             <FaTelegramPlane className="mr-3" />
             <FaTwitter />
