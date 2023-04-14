@@ -39,7 +39,7 @@ export default function Navbar() {
                 );
               })}
             </div>
-            <div className="h-10 w-10 rounded-full bg-white flex justify-center items-center cursor-pointer ">
+            <div className="h-10 w-10 rounded-full bg-white flex justify-center items-center cursor-pointer mr-3">
               <img src="/assets/icons/twitter.png" />
             </div>
             <div className="ml-1 h-10 w-10 rounded-full bg-white flex justify-center items-center cursor-pointer ">
