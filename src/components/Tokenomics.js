@@ -3,7 +3,7 @@ import {AiOutlineLineChart} from 'react-icons/ai'
 
 const Tokenomics = () => {
   return (
-    <div className="pt-72">
+    <div className="pt-72 pb-16">
       <div className=" text-center  text-white flex flex-col justify-center">
         <h1 className="text-4xl  font-orbitron font-bold  text-white  text-center mx-auto">
           Tokenomics
