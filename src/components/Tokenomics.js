@@ -2,7 +2,7 @@ import React from "react";
 
 const Tokenomics = () => {
   return (
-    <div className="pt-72">
+    <div className="md:mt-96 mt-20">
       <div className=" text-center  text-white flex flex-col justify-center">
         <h1 className="text-4xl  font-orbitron font-bold  text-white  text-center mx-auto">
           Tokenomics
@@ -15,19 +15,10 @@ const Tokenomics = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 mt-20 place-content-center place-items-center">
-        <div className="bg-[url('/public/assets/images/tokenomic-box.png')] sm:bg-cover h-[460px] w-[518px] pt-20  pl-20">
-          <ol className="text-white text-sm font-poppins space-y-2 list-disc">
-            <li>Price: $0.00001</li>
-            <li>Vesting round: 70% at TGE</li>
-            <li>30 days cliff then</li>
-            <li>10% every 30 days</li>
-            <li>Initial Marketcap: $40,000</li>
-            <li>Cap/person: $1000</li>
-            <li>Soft Cap: $20,000</li>
-            <li>Hardcap: $40,000</li>
-            <li>Total supply: 7,019,999,999,999</li>
-          </ol>
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-20 place-content-center place-items-center">
+        <div className="w-full h-fit">
+          <img className="w-full h-auto " src="/assets/images/tokenomic-box.png"/>
+          
         </div>
         <img src="/assets/images/chart.png"/>
       </div>

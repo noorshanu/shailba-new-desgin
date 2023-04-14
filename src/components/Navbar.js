@@ -39,17 +39,17 @@ export default function Navbar() {
                 );
               })}
             </div>
-          </Popover.Group>
-          <div className=" flex items-center justify-end md:flex space-x-2">
             <div className="h-10 w-10 rounded-full bg-white flex justify-center items-center cursor-pointer ">
               <img src="/assets/icons/twitter.png" />
             </div>
-            <div className="h-10 w-10 rounded-full bg-white flex justify-center items-center cursor-pointer ">
+            <div className="ml-1 h-10 w-10 rounded-full bg-white flex justify-center items-center cursor-pointer ">
               <img src="/assets/icons/telegram.png" />
             </div>
-
+          </Popover.Group>
+          <div className=" flex items-center justify-end md:flex mr-2">
+            <div></div>
             <div className=" md:hidden">
-              <Popover.Button className=" inline-flex items-center justify-center  rounded-md  p-2">
+              <Popover.Button className=" inline-flex items-center justify-center  rounded-md  p-2 ml-2">
                 <span className="sr-only">Open menu</span>
                 <Bars3Icon
                   className="h-6 w-6"
@@ -76,13 +76,13 @@ export default function Navbar() {
           className="absolute inset-x-0 top-0 origin-top-right transform py-2 transition md:hidden"
         >
           <div className=" rounded-lg bg-black shadow-lg ring-1 ring-black ring-opacity-5">
-            <div className="bg-black px-5 py-3">
+            <div className="bg-black mx-5 py-3">
               <div className="flex items-center justify-between">
                 <div className="flex font-orbitron text-white font-[600] text-xl items-center">
                   <img src="/assets/logos/logo.png" className="mr-2" />
                   SHIBAI
                 </div>
-                <div className="-mr-2">
+                <div className="mr-2">
                   <Popover.Button className=" inline-flex items-center justify-center rounded-md  p-2">
                     <span className="sr-only">Close menu</span>
                     <XMarkIcon

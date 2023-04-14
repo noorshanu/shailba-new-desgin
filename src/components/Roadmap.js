@@ -2,6 +2,7 @@ import React from "react";
 
 const Roadmap = () => {
   return (
+    // 03353550784
     <div className="pt-10">
       <div className=" text-center  text-white flex flex-col justify-center">
         <h1 className="text-3xl font-orbitron font-bold md:w-[600px] mx-auto">
@@ -19,15 +20,15 @@ const Roadmap = () => {
       <h1 className="text-4xl  font-orbitron font-bold my-16 text-white  text-center mx-auto">
         Roadmap
       </h1>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-1 sm:grid-cols-3">
         <div>
-          <img src="/assets/images/box1.png" className="" />
+          <img src="/assets/images/box1.png" className="hidden sm:flex" />
         </div>
         <div>
-          <img src="/assets/images/box2.png" className="" />
+          <img src="/assets/images/box2.png" className="mx-auto" />
         </div>
         <div>
-          <img src="/assets/images/box3.png" className="" />
+          <img src="/assets/images/box3.png" className="hidden sm:flex" />
         </div>
       </div>
     </div>
