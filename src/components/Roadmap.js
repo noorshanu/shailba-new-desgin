@@ -11,12 +11,12 @@ const Roadmap = () => {
 
 <div className=" text-center  text-white flex flex-col justify-center">
   <h1 className="text-3xl font-orbitron font-bold md:w-[600px] mx-auto">
-    Revolutionizing the crypto world with Shaiba
+    Revolutionizing the crypto world with ShAIba
   </h1>
   <p className="text-sm font-poppins mt-8 md:w-[75%] mx-auto">
     Welcome to $SHAI world - we deliver 4 AI pocket telegram bots that
     make operating in the web3 world much effortless. With real-time
-    information on coins, market trends, and popular Twitter users, shAIba
+    information on coins, market trends, and popular Twitter users, ShAIba
     is the tool you need to stay ahead of the game. And it’s not all! The
     $SHAI token provides Real-Yield opportunities to its holders. Join the
     AI revolution with $SHAI!
