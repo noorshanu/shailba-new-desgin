@@ -1,4 +1,5 @@
 import React from "react";
+import {AiOutlineLineChart} from 'react-icons/ai'
 
 const Tokenomics = () => {
   return (
@@ -20,7 +21,7 @@ const Tokenomics = () => {
           <img className="w-full h-auto " src="/assets/images/tokenomic-box.png"/>
           
         </div>
-        <img src="/assets/images/chart.png"/>
+        <img src="/assets/images/chart.png" alt=""/>
       </div>
     </div>
   );
