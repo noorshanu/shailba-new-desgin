@@ -64,7 +64,7 @@ const Main = () => {
           />
           <img
             src="/assets/images/hoverBox2.png"
-            className="hidden group-hover:flex md:static absolute bottom-[-6rem]"
+            className="hidden group-hover:flex md:static absolute top-[-7rem]"
           />
         </div>
         <div className="group relative">
@@ -75,7 +75,7 @@ const Main = () => {
           />
           <img
             src="/assets/images/hoverBox4.png"
-            className="hidden group-hover:flex  absolute bottom-[-7rem]"
+            className="hidden group-hover:flex  absolute top-[-7rem]"
           />
         </div>
       </div>

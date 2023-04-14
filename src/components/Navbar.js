@@ -44,7 +44,7 @@ export default function Navbar() {
               <FaTwitter className="text-black text-xl group-hover:text-white" />
             </div>
             <div className="ml-1 h-10 w-10 rounded-full group bg-white hover:bg-transparent hover:outline hover:outline-white flex justify-center items-center cursor-pointer ">
-              <FaTelegramPlane className="text-black text-xl hover:text-white"/>
+              <FaTelegramPlane className="text-black text-xl group-hover:text-white"/>
             </div>
           </Popover.Group>
           <div className=" flex items-center justify-end md:flex mr-2">
@@ -80,8 +80,7 @@ export default function Navbar() {
             <div className="bg-black mx-5 py-3">
               <div className="flex items-center justify-between">
                 <div className="flex font-orbitron text-white font-[600] text-xl items-center">
-                  <img src="/assets/logos/logo.png" className="mr-2" />
-                  SHIBAI
+                  <img src="/assets/logos/logo.svg" className="mr-2" />
                 </div>
                 <div className="mr-2">
                   <Popover.Button className=" inline-flex items-center justify-center rounded-md  p-2">

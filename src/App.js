@@ -6,7 +6,7 @@ import Tokenomics from "./components/Tokenomics";
 
 function App() {
   return (
-    <div className="w-screen h-auto overflow-x-hidden bg-[url('../public/assets/images/bg-sm.png')] bg-cover">
+    <div className="w-screen h-auto overflow-x-hidden bg-[url('../public/assets/images/bg-sm.png')] bg-cover pl-5">
       <div className="h-[auto] sm:bg-[url('../public/assets/home.png')] bg-transparent bg-cover sm:pb-60">
         <div className=" mx-auto  max-w-7xl px-3 md:px-10  ">
           <Navbar />
