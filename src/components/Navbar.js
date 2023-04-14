@@ -41,10 +41,13 @@ export default function Navbar() {
               })}
             </div>
             <div className="h-10 w-10 rounded-full group bg-white hover:bg-transparent hover:outline hover:outline-white  flex justify-center items-center cursor-pointer mr-3">
-              <FaTwitter className="text-black text-xl group-hover:text-white" />
+             <a href="/">
+             <FaTwitter className="text-black text-xl group-hover:text-white" />
+              </a> 
             </div>
             <div className="ml-1 h-10 w-10 rounded-full group bg-white hover:bg-transparent hover:outline hover:outline-white flex justify-center items-center cursor-pointer ">
-              <FaTelegramPlane className="text-black text-xl group-hover:text-white"/>
+             <a href="https://t.me/ShaibaioBot"><FaTelegramPlane className="text-black text-xl group-hover:text-white"/></a>
+              
             </div>
           </Popover.Group>
           <div className=" flex items-center justify-end md:flex mr-2">
