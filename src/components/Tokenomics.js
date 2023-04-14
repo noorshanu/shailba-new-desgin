@@ -1,5 +1,4 @@
 import React from "react";
-import {AiOutlineLineChart} from 'react-icons/ai'
 
 const Tokenomics = () => {
   return (
@@ -18,10 +17,12 @@ const Tokenomics = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 mt-20 place-content-center place-items-center">
         <div className="w-full h-fit">
-          <img className="w-full h-auto " src="/assets/images/tokenomic-box.png"/>
-          
+          <img
+            className="w-full h-auto "
+            src="/assets/images/tokenomic-box.png"
+          />
         </div>
-        <img src="/assets/images/chart.png" alt=""/>
+        <img src="/assets/images/chart.png" alt="" />
       </div>
     </div>
   );

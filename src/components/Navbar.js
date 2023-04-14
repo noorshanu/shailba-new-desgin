@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { FireIcon } from "@heroicons/react/24/solid";
 import { Bars3Icon, XMarkIcon, WalletIcon } from "@heroicons/react/24/outline";
+import {FaTwitter,FaTelegramPlane} from 'react-icons/fa'
 
 let navItems = [
   { label: "About", route: "/about" },
@@ -23,13 +24,13 @@ export default function Navbar() {
             as="nav"
             className="hidden md:flex-1 justify-center md:flex "
           >
-            <div className="w-fit mx-auto space-x-10 bg-white px-10 py-5 bg-opacity-[0.07] rounded-full">
+            <div className="w-fit mx-auto space-x-10 bg-white   px-10 py-5 bg-opacity-[0.07] rounded-full">
               {navItems.map((nav, i) => {
                 return (
                   <a
                     key={i}
                     href={nav.route}
-                    className={`font-medium font-orbitron text-white text-sm
+                    className={`font-medium font-orbitron text-white hover:text-gray-500 text-sm
                      
                    
                   `}
@@ -39,11 +40,11 @@ export default function Navbar() {
                 );
               })}
             </div>
-            <div className="h-10 w-10 rounded-full bg-white flex justify-center items-center cursor-pointer mr-3">
-              <img src="/assets/icons/twitter.png" />
+            <div className="h-10 w-10 rounded-full group bg-white hover:bg-transparent hover:outline hover:outline-white  flex justify-center items-center cursor-pointer mr-3">
+              <FaTwitter className="text-black text-xl group-hover:text-white" />
             </div>
-            <div className="ml-1 h-10 w-10 rounded-full bg-white flex justify-center items-center cursor-pointer ">
-              <img src="/assets/icons/telegram.png" />
+            <div className="ml-1 h-10 w-10 rounded-full group bg-white hover:bg-transparent hover:outline hover:outline-white flex justify-center items-center cursor-pointer ">
+              <FaTelegramPlane className="text-black text-xl hover:text-white"/>
             </div>
           </Popover.Group>
           <div className=" flex items-center justify-end md:flex mr-2">

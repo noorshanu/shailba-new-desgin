@@ -7,20 +7,35 @@ const Main = () => {
         <div className=" group">
           <img
             src="/assets/images/fox1.svg"
-            className="h-auto w-36 md:h-60 md:w-64 cursor-pointer"
+            className="h-auto w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
             alt=""
           />
-          <img src="/assets/images/hoverBox.png" className="hidden group-hover:flex md:static absolute bottom-[8rem]" />
+          <img
+            src="/assets/images/fox-sm-1.png"
+            className="h-auto w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            alt=""
+          />
+          <img
+            src="/assets/images/hoverBox.png"
+            className="hidden group-hover:flex md:static absolute bottom-[12rem] sm:bottom-[8rem]"
+          />
         </div>
 
         <div className="group relative">
           <img
             src="/assets/images/fox2.svg"
-            className="h-auto w-36 md:h-60 md:w-64 cursor-pointer"
+            className="h-auto w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
             alt=""
           />
-          <img src="/assets/images/hoverBox3.png" className="hidden group-hover:flex  absolute bottom-[-14rem]" />
-
+          <img
+            src="/assets/images/fox-sm-2.png"
+            className="h-auto w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            alt=""
+          />
+          <img
+            src="/assets/images/hoverBox3.png"
+            className="hidden group-hover:flex  absolute bottom-[-8rem]"
+          />
         </div>
       </div>
       <div className="sm:col-span-3 sm:w-auto w-full">
@@ -30,8 +45,8 @@ const Main = () => {
           alt=""
         />
         <img
-          src="/assets/images/fox-sm-main.png"
-          className="h-[auto] w-full self-center flex sm:hidden"
+          src="/assets/images/main-fox-sm.png"
+          className="h-[auto] w-full self-center flex sm:hidden px-[30px]"
           alt=""
         />
       </div>
@@ -39,11 +54,18 @@ const Main = () => {
         <div className="group relative">
           <img
             src="/assets/images/fox3.svg"
-            className="h-auto w-36 md:h-60 md:w-64 cursor-pointer"
+            className="h-auto w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
             alt=""
           />
-           <img src="/assets/images/hoverBox2.png" className="hidden group-hover:flex md:static absolute bottom-[8rem]" />
-
+          <img
+            src="/assets/images/fox-sm-3.png"
+            className="h-auto w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            alt=""
+          />
+          <img
+            src="/assets/images/hoverBox2.png"
+            className="hidden group-hover:flex md:static absolute bottom-[-6rem]"
+          />
         </div>
         <div className="group relative">
           <img
@@ -51,8 +73,10 @@ const Main = () => {
             className="h-auto w-36 md:h-60 md:w-64 cursor-pointer"
             alt=""
           />
-          <img src="/assets/images/hoverBox4.png" className="hidden group-hover:flex  absolute bottom-[-14rem]" />
-
+          <img
+            src="/assets/images/hoverBox4.png"
+            className="hidden group-hover:flex  absolute bottom-[-7rem]"
+          />
         </div>
       </div>
     </div>
