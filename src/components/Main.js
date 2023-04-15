@@ -5,6 +5,7 @@ const Main = () => {
     <div className="grid mt-10 sm:grid-cols-5 w-full pb-16 place-items-center">
       <div className="flex h-full flex-row sm:flex-col justify-between items-center sm:w-auto w-full">
         <div className=" group relative">
+          {/* box-1 */}
           <img
             src="/assets/images/fox1.svg"
             className="h-auto w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
@@ -16,12 +17,13 @@ const Main = () => {
             alt=""
           />
           <img
-            src="/assets/images/hoverBox.png"
-            className="hidden group-hover:flex  absolute bottom-[-8rem] sm:bottom-[-4.5rem] md:bottom-[-11rem]"
+            src="/assets/box2.svg"
+            className="hidden group-hover:flex  absolute top-[5rem]  sm:bottom-[-4.5rem] md:top-[4.4rem]  right-[-7rem] sm:right-[-10.3rem]"
           />
         </div>
 
         <div className="group relative">
+          {/* box-3 */}
           <img
             src="/assets/images/fox2.svg"
             className="h-auto w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
@@ -33,8 +35,8 @@ const Main = () => {
             alt=""
           />
           <img
-            src="/assets/images/hoverBox3.png"
-            className="hidden group-hover:flex  absolute bottom-[-8rem]"
+            src="/assets/box1.svg"
+            className="hidden group-hover:flex  absolute right-0 sm:right-[-11rem]  md:top-[-9rem] "
           />
         </div>
       </div>
@@ -52,6 +54,7 @@ const Main = () => {
       </div>
       <div className="flex h-full flex-row sm:flex-col justify-between sm:w-auto w-full">
         <div className="group relative">
+          {/* fox-2 */}
           <img
             src="/assets/images/fox3.svg"
             className="h-auto w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
@@ -63,19 +66,20 @@ const Main = () => {
             alt=""
           />
           <img
-            src="/assets/images/hoverBox2.png"
-            className="hidden group-hover:flex  absolute bottom-[-4.5rem]"
+            src="/assets/box3.svg"
+            className="hidden group-hover:flex  absolute top-[8.4rem] right-[-2rem] md:left-[-10rem] xl:left-[-10rem]"
           />
         </div>
         <div className="group relative">
+          {/* fox-4 */}
           <img
             src="/assets/images/fox4.svg"
             className="h-auto w-36 md:h-60 md:w-64 cursor-pointer"
             alt=""
           />
           <img
-            src="/assets/images/hoverBox4.png"
-            className="hidden group-hover:flex  absolute bottom-[-7rem]"
+            src="/assets/box4.svg"
+            className="hidden group-hover:flex  absolute  top-[-7rem]  "
           />
         </div>
       </div>
