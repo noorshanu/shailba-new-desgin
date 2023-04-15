@@ -18,7 +18,7 @@ const Main = () => {
           />
           <img
             src="/assets/box2.svg"
-            className="hidden group-hover:flex  absolute top-[5rem]  sm:bottom-[-4.5rem] md:top-[4.4rem]  right-[-7rem] sm:right-[-10.3rem]"
+            className="hidden group-hover:flex  absolute top-[5rem]  sm:bottom-[-4.5rem] md:top-[4.4rem]  right-[-7rem] sm:right-[-7rem] md:right-[-10.3rem]"
           />
         </div>
 
@@ -36,7 +36,7 @@ const Main = () => {
           />
           <img
             src="/assets/box1.svg"
-            className="hidden group-hover:flex  absolute right-0 sm:right-[-11rem]  md:top-[-9rem] "
+            className="hidden group-hover:flex  absolute right-0 sm:right-[-7rem] md:right-[-11rem] sm:top-[-6rem] md:top-[-5rem] lg:top-[-9rem] "
           />
         </div>
       </div>
@@ -67,7 +67,7 @@ const Main = () => {
           />
           <img
             src="/assets/box3.svg"
-            className="hidden group-hover:flex  absolute top-[8.4rem] right-[-2rem] md:left-[-10rem] xl:left-[-10rem]"
+            className="hidden group-hover:flex  absolute top-[8.4rem] right-[-2rem] sm:right-0 md:left-[-10rem] xl:left-[-10rem]"
           />
         </div>
         <div className="group relative">
