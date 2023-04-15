@@ -5,6 +5,7 @@ const Main = () => {
     <div className="grid mt-10 sm:grid-cols-5 w-full pb-16 place-items-center">
       <div className="flex h-full flex-row sm:flex-col justify-between items-center sm:w-auto w-full">
         <div className=" group relative">
+          {/* box-1 */}
           <img
             src="/assets/images/fox1.svg"
             className="h-auto w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
@@ -22,6 +23,7 @@ const Main = () => {
         </div>
 
         <div className="group relative">
+          {/* box-3 */}
           <img
             src="/assets/images/fox2.svg"
             className="h-auto w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
@@ -52,6 +54,7 @@ const Main = () => {
       </div>
       <div className="flex h-full flex-row sm:flex-col justify-between sm:w-auto w-full">
         <div className="group relative">
+          {/* fox-2 */}
           <img
             src="/assets/images/fox3.svg"
             className="h-auto w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
@@ -68,6 +71,7 @@ const Main = () => {
           />
         </div>
         <div className="group relative">
+          {/* fox-4 */}
           <img
             src="/assets/images/fox4.svg"
             className="h-auto w-36 md:h-60 md:w-64 cursor-pointer"
