@@ -16,7 +16,13 @@ function App() {
       <div className="h-[auto]  sm:bg-[url('../public/assets/images/bg-full.png')] bg-transparent bg-cover">
         <div className=" mx-auto  max-w-7xl px-3 md:px-10  ">
           <Roadmap />
-          <Tokenomics/>
+        </div>
+        <div className="sm:bg-none bg-[url('../public/assets/images/bg-tokenomic.png')] bg-cover">
+          <div className=" mx-auto  max-w-7xl px-3 md:px-10  ">
+            <Tokenomics />
+          </div>
+        </div>
+        <div className=" mx-auto  max-w-7xl px-3 md:px-10  ">
           <Footer />
         </div>
       </div>
