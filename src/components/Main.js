@@ -18,7 +18,7 @@ const Main = () => {
           />
           <img
             src="/assets/desktop/chatbot.svg"
-            className="hidden group-hover:flex  absolute bottom-[-5rem] left-[7rem] sm:bottom-[-4.5rem] md:bottom-[-11rem] md:top-[10.938rem] md:left-[4.188rem]" alt=""
+            className="hidden group-hover:flex  absolute bottom-[-5rem] left-[7rem] sm:bottom-[-4.5rem] md:bottom-[-11rem] md:top-[12.938rem] md:left-[4.188rem]" alt=""
           />
         </div>
 
@@ -36,7 +36,7 @@ const Main = () => {
           />
           <img
             src="/assets/desktop/market.svg"
-            className="hidden group-hover:flex  absolute bottom-[6em] left-[-1rem] md:top-[-9rem] md:left-[5rem]" alt=""
+            className="hidden group-hover:flex  absolute bottom-[6em] left-[-1rem] md:top-[-12rem] md:left-[4rem]" alt=""
           />
         </div>
       </div>
@@ -67,7 +67,7 @@ const Main = () => {
           />
           <img
             src="/assets/desktop/comp.svg"
-            className="hidden group-hover:flex  absolute bottom-[-5.5rem] left-[28px] md:top-[10rem] md:left-[-5rem]" alt=""
+            className="hidden group-hover:flex  absolute bottom-[-5.5rem] left-[28px] md:top-[13rem] md:left-[-5rem]" alt=""
           />
         </div>
         <div className="group relative">
@@ -79,7 +79,7 @@ const Main = () => {
           />
           <img
             src="/assets/desktop/sniper.svg"
-            className="hidden group-hover:flex  absolute bottom-[6rem] right-[8rem]  md:top-[-10rem] md:left-[-5rem]" alt=""
+            className="hidden group-hover:flex  absolute bottom-[6rem] right-[8rem]  md:top-[-12rem] md:left-[-4rem]" alt=""
           />
         </div>
       </div>
