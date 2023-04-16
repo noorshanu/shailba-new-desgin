@@ -13,7 +13,7 @@ const Main = () => {
           />
           <img
             src="/assets/images/fox-sm-1.svg"
-            className="h-auto w-[8rem] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            className="h-auto w-[10rem] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
         
@@ -31,7 +31,7 @@ const Main = () => {
           {/* box-3 */}
           <img
             src="/assets/images/fox2.svg"
-            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
+            className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
             alt=""
           />
           <img
