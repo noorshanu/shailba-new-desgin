@@ -78,17 +78,22 @@ const Main = () => {
           <img
             src="/assets/box3.svg"
             className="hidden group-hover:sm:flex group-hover:hidden  absolute top-[13.4rem] right-[-2rem] sm:right-0 md:left-[-9rem] xl:left-[-3rem]"
-          />
+        alt=""  />
           <img
             src="/assets/box2-sm.svg"
             className="hidden group-hover:sm:hidden group-hover:flex z-50  scale-[1.4] h-auto w-[4.15rem] absolute left-1 top-[-7.5rem]"
-          />
+        alt=""  />
         </div>
         <div className="group relative">
           {/* fox-4 */}
           <img
             src="/assets/images/fox4.svg"
-            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64 cursor-pointer"
+            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64  cursor-pointer hidden sm:block"
+            alt=""
+          />
+            <img
+            src="/assets/images/fox-sm-4.svg"
+            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
           <img
