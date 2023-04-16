@@ -23,7 +23,7 @@ const Main = () => {
           />
           <img
             src="/assets/box3-sm.svg"
-            className="hidden group-hover:flex z-50  group-hover:sm:hidden  absolute top-[2rem] right-[-8.5rem] scale-125 sm:top-[5rem]  sm:bottom-[-4.5rem] md:top-[8.4rem]   sm:right-[-7rem] md:right-[-9.3rem]"
+            className="hidden group-hover:flex z-50 w-[114px]  group-hover:sm:hidden  absolute top-[2rem] right-[-7.5rem] scale-125 sm:top-[5rem]  sm:bottom-[-4.5rem] md:top-[8.4rem]   sm:right-[-7rem] md:right-[-9.3rem]"
         alt=""  />
         </div>
 
@@ -57,7 +57,7 @@ const Main = () => {
           alt=""
         />
         <img
-          src="/assets/images/main-fox-sm.svg"
+          src="/assets/images/fox-sm-main.png"
           className="h-[auto] w-[90%] mx-auto self-center flex sm:hidden px-[5rem]"
           alt=""
         />
@@ -102,7 +102,7 @@ const Main = () => {
           />
           <img
             src="/assets/box4-sm.svg"
-            className="hidden group-hover:flex z-50  group-hover:sm:hidden absolute scale-[1.5] w-[114]  top-[2rem] left-[-7rem] " alt=""
+            className="hidden group-hover:flex z-50  group-hover:sm:hidden absolute scale-[1.5] w-[114px]  top-[2rem] left-[-7rem] " alt=""
           />
         </div>
       </div>
