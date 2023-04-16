@@ -9,7 +9,7 @@ const Roadmap = () => {
     <>
       <div className="blue-grad sm:visible invisible"></div>
       <div className="sm:pt-28 pt-8 z-10">
-        <div className=" text-center  text-white flex flex-col justify-center backdrop-blur-md" id="roadmap">
+        <div className=" text-center  text-white flex flex-col justify-center backdrop-blur-md" id="about" >
           <h1 className="text-3xl font-orbitron font-bold md:w-[600px] mx-auto">
             Revolutionizing the crypto world with ShAIba
           </h1>
@@ -22,7 +22,7 @@ const Roadmap = () => {
             holders. Join the AI revolution with $SHAI!
           </p>
         </div>
-        <h1 className="text-4xl  font-orbitron font-bold my-16 text-white  text-center mx-auto">
+        <h1 className="text-4xl  font-orbitron font-bold my-16 text-white  text-center mx-auto" id="roadmap">
           Roadmap
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-3 relative">
@@ -31,7 +31,7 @@ const Roadmap = () => {
             className="flwx sm:hidden text-white w-6 h-auto absolute left-2 top-24 cursor-pointer "
           />
           <div>
-            <img src="/assets/images/box1.png" className="hidden sm:flex" />
+            <img src="/assets/images/box1.png" className="hidden sm:flex" alt="" />
           </div>
           <div>
             {box == 0 ? (
