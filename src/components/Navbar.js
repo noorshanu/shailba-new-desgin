@@ -6,8 +6,8 @@ import {FaTwitter,FaTelegramPlane} from 'react-icons/fa'
 
 let navItems = [
   { label: "About", route: "/about" },
-  { label: "Tokenomics", route: "tokenomics" },
-  { label: "Roadmap", route: "roadmap" },
+  { label: "Tokenomics", route: "#token" },
+  { label: "Roadmap", route: "#roadmap" },
 ];
 
 export default function Navbar() {
