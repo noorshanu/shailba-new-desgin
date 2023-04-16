@@ -19,7 +19,7 @@ const Tokenomics = () => {
         <div className="w-full h-fit">
           <img
             className="w-full h-auto "
-            src="/assets/images/tokenomic-box.png"
+            src="/assets/images/tokenomic-box.png" alt=""
           />
         </div>
         <img src="/assets/images/chart.png" className="" alt="" />
