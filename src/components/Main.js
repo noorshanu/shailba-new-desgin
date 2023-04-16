@@ -8,12 +8,12 @@ const Main = () => {
           {/* box-1 */}
           <img
             src="/assets/images/fox1.svg"
-            className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64 cursor-pointer sm:flex"
+            className="h-auto w-[147px] sm:w-36 md:h-60 md:w-64 cursor-pointer sm:flex"
             alt=""
           />
           {/* <img
             src="/assets/images/fox-sm-1.svg"
-            className="h-auto w-[10rem] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            className="h-auto w-[147px] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           /> */}
         
@@ -31,12 +31,12 @@ const Main = () => {
           {/* box-3 */}
           <img
             src="/assets/images/fox2.svg"
-            className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64 cursor-pointer  sm:flex"
+            className="h-auto w-[147px] sm:w-36 md:h-60 md:w-64 cursor-pointer  sm:flex"
             alt=""
           />
           {/* <img
             src="/assets/images/fox-sm-2.svg"
-            className="h-auto w-[10rem] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            className="h-auto w-[147px] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           /> */}
         
@@ -67,12 +67,12 @@ const Main = () => {
           {/* fox-2 */}
           <img
             src="/assets/images/fox3.svg"
-            className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64 cursor-pointer  sm:flex"
+            className="h-auto w-[147px] sm:w-36 md:h-60 md:w-64 cursor-pointer  sm:flex"
             alt=""
           />
           {/* <img
             src="/assets/images/fox-sm-3.svg"
-            className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            className="h-auto w-[147px] sm:w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           /> */}
           <img
@@ -88,12 +88,12 @@ const Main = () => {
           {/* fox-4 */}
           <img
             src="/assets/images/fox4.svg"
-            className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64  cursor-pointer  sm:block"
+            className="h-auto w-[147px] sm:w-36 md:h-60 md:w-64  cursor-pointer  sm:block"
             alt=""
           />
             {/* <img
             src="/assets/images/fox-sm-4.svg"
-            className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            className="h-auto w-[147px] sm:w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           /> */}
           <img
