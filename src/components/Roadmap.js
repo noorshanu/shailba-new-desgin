@@ -37,23 +37,23 @@ const Roadmap = () => {
             {box == 0 ? (
               <img
                 src="/assets/images/box1.png"
-                className="mx-auto w-[80%] sm:w-auto flex sm:hidden"
+                className="mx-auto w-[80%] sm:w-auto flex sm:hidden" alt=""
               />
             ) : box == 1 ? (
               <img
                 src="/assets/images/box2.png"
-                className="mx-auto w-[80%] sm:w-auto flex sm:hidden"
+                className="mx-auto w-[80%] sm:w-auto flex sm:hidden" alt=""
               />
             ) : (
               <img
                 src="/assets/images/box3.png"
-                className="mx-auto w-[80%] sm:w-auto flex sm:hidden"
+                className="mx-auto w-[80%] sm:w-auto flex sm:hidden" alt=""
               />
             )}
-            <img src="/assets/images/box2.png" className="hidden sm:flex" />
+            <img src="/assets/images/box2.png" className="hidden sm:flex" alt=""/>
           </div>
           <div>
-            <img src="/assets/images/box3.png" className="hidden sm:flex" />
+            <img src="/assets/images/box3.png" className="hidden sm:flex" alt="" />
           </div>
           <ArrowRightIcon
             onClick={() => setBox((e) => (e == 2 ? 0 : ++e))}
