@@ -56,7 +56,7 @@ const Main = () => {
         />
         <img
           src="/assets/images/main-fox-sm.svg"
-          className="h-[auto] w-[90%] mx-auto self-center flex sm:hidden px-[30px]"
+          className="h-[auto] w-[90%] mx-auto self-center flex sm:hidden px-[5rem]"
           alt=""
         />
       </div>
