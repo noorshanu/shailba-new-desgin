@@ -8,12 +8,12 @@ const Main = () => {
           {/* box-1 */}
           <img
             src="/assets/images/fox1.svg"
-            className="h-auto w-24 sm:w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
+            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
             alt=""
           />
           <img
             src="/assets/images/fox-sm-1.svg"
-            className="h-auto w-24 sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            className="h-auto w-[8rem] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
           <img
@@ -22,7 +22,7 @@ const Main = () => {
           />
           <img
             src="/assets/box3-sm.svg"
-            className="hidden group-hover:flex group-hover:sm:hidden  absolute top-[2rem] right-[-5rem] sm:top-[5rem]  sm:bottom-[-4.5rem] md:top-[8.4rem]   sm:right-[-7rem] md:right-[-9.3rem]"
+            className="hidden group-hover:flex z-50  group-hover:sm:hidden  absolute top-[2rem] right-[-8.5rem] scale-125 sm:top-[5rem]  sm:bottom-[-4.5rem] md:top-[8.4rem]   sm:right-[-7rem] md:right-[-9.3rem]"
           />
         </div>
 
@@ -30,12 +30,12 @@ const Main = () => {
           {/* box-3 */}
           <img
             src="/assets/images/fox2.svg"
-            className="h-auto w-24 sm:w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
+            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
             alt=""
           />
           <img
             src="/assets/images/fox-sm-2.svg"
-            className="h-auto w-24 sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            className="h-auto w-[7rem] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
           <img
@@ -44,7 +44,7 @@ const Main = () => {
           />
           <img
             src="/assets/box1-sm.svg"
-            className="hidden group-hover:flex group-hover:sm:hidden w-[4.15rem] h-auto absolute right-0 bottom-[-7rem] "
+            className="hidden group-hover:flex z-50  group-hover:sm:hidden w-[4.15rem] scale-[1.55] h-auto absolute right-2 bottom-[-8rem] "
           />
         </div>
       </div>
@@ -65,12 +65,12 @@ const Main = () => {
           {/* fox-2 */}
           <img
             src="/assets/images/fox3.svg"
-            className="h-auto w-24 sm:w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
+            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
             alt=""
           />
           <img
             src="/assets/images/fox-sm-3.svg"
-            className="h-auto w-24 sm:w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
+            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
           <img
@@ -79,14 +79,14 @@ const Main = () => {
           />
           <img
             src="/assets/box2-sm.svg"
-            className="hidden group-hover:sm:hidden group-hover:flex h-auto w-[4.15rem] absolute left-0 top-[-6.5em]"
+            className="hidden group-hover:sm:hidden group-hover:flex z-50  scale-[1.4] h-auto w-[4.15rem] absolute left-1 top-[-7.5rem]"
           />
         </div>
         <div className="group relative">
           {/* fox-4 */}
           <img
             src="/assets/images/fox4.svg"
-            className="h-auto w-24 sm:w-36 md:h-60 md:w-64 cursor-pointer"
+            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64 cursor-pointer"
             alt=""
           />
           <img
@@ -95,7 +95,7 @@ const Main = () => {
           />
           <img
             src="/assets/box4-sm.svg"
-            className="hidden group-hover:flex group-hover:sm:hidden absolute  top-[2rem] left-[-6rem] "
+            className="hidden group-hover:flex z-50  group-hover:sm:hidden absolute scale-[1.5]  top-[2rem] left-[-9rem] "
           />
         </div>
       </div>
