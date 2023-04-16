@@ -16,14 +16,15 @@ const Main = () => {
             className="h-auto w-[8rem] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
+        
           <img
-            src="/assets/box2.svg"
-            className="hidden group-hover:sm:flex  absolute top-[5rem]  sm:bottom-[-4.5rem] md:top-[8.4rem]  right-[-7rem] sm:right-[-7rem] md:right-[-9.3rem]"
+            src="/assets/desktop/chatbot.svg"
+            className="hidden group-hover:sm:flex  absolute top-[5rem]  sm:bottom-[-4.5rem]   right-[-7rem] sm:right-[-7rem] md:right-[-9.3rem] md:bottom-[-11rem] md:top-[12.938rem] md:left-[4.188rem]" alt=""
           />
           <img
             src="/assets/box3-sm.svg"
             className="hidden group-hover:flex z-50  group-hover:sm:hidden  absolute top-[2rem] right-[-8.5rem] scale-125 sm:top-[5rem]  sm:bottom-[-4.5rem] md:top-[8.4rem]   sm:right-[-7rem] md:right-[-9.3rem]"
-          />
+        alt=""  />
         </div>
 
         <div className="group relative">
@@ -38,14 +39,15 @@ const Main = () => {
             className="h-auto w-[7rem] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
+        
           <img
-            src="/assets/box1.svg"
-            className="hidden group-hover:sm:flex group-hover:hidden  absolute right-0 top-[-90px] sm:right-[-7rem] md:right-[-11rem] sm:top-[-6rem] md:top-[-5rem] lg:top-[-9rem] "
-          />
+            src="/assets/desktop/market.svg"
+            className="hidden group-hover:sm:flex group-hover:hidden  absolute right-0 top-[-90px] sm:right-[-7rem] md:right-[-11rem] sm:top-[-6rem]  lg:top-[-12rem] md:top-[-12rem] md:left-[4rem]"
+         alt="" />
           <img
             src="/assets/box1-sm.svg"
             className="hidden group-hover:flex z-50  group-hover:sm:hidden w-[4.15rem] scale-[1.55] h-auto absolute right-2 bottom-[-8rem] "
-          />
+         alt="" />
         </div>
       </div>
       <div className="sm:col-span-3 sm:w-auto w-full">
@@ -75,7 +77,7 @@ const Main = () => {
           />
           <img
             src="/assets/box3.svg"
-            className="hidden group-hover:sm:flex group-hover:hidden  absolute top-[8.4rem] right-[-2rem] sm:right-0 md:left-[-9rem] xl:left-[-10rem]"
+            className="hidden group-hover:sm:flex group-hover:hidden  absolute top-[13.4rem] right-[-2rem] sm:right-0 md:left-[-9rem] xl:left-[-3rem]"
           />
           <img
             src="/assets/box2-sm.svg"
@@ -90,12 +92,12 @@ const Main = () => {
             alt=""
           />
           <img
-            src="/assets/box4.svg"
-            className="hidden group-hover:sm:flex group-hover:hidden absolute  top-[-7rem]  "
+            src="/assets/desktop/sniper.svg"
+            className="hidden group-hover:sm:flex group-hover:hidden absolute  top-[-11rem]  " alt=""
           />
           <img
             src="/assets/box4-sm.svg"
-            className="hidden group-hover:flex z-50  group-hover:sm:hidden absolute scale-[1.5]  top-[2rem] left-[-9rem] "
+            className="hidden group-hover:flex z-50  group-hover:sm:hidden absolute scale-[1.5]  top-[2rem] left-[-9rem] " alt=""
           />
         </div>
       </div>
