@@ -9,7 +9,7 @@ const Roadmap = () => {
     <>
       <div className="blue-grad sm:visible invisible"></div>
       <div className="sm:pt-28 pt-8 z-10">
-        <div className=" text-center  text-white flex flex-col justify-center">
+        <div className=" text-center  text-white flex flex-col justify-center backdrop-blur-md">
           <h1 className="text-3xl font-orbitron font-bold md:w-[600px] mx-auto">
             Revolutionizing the crypto world with ShAIba
           </h1>
