@@ -8,14 +8,14 @@ const Main = () => {
           {/* box-1 */}
           <img
             src="/assets/images/fox1.svg"
-            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
+            className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64 cursor-pointer sm:flex"
             alt=""
           />
-          <img
+          {/* <img
             src="/assets/images/fox-sm-1.svg"
             className="h-auto w-[10rem] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
-          />
+          /> */}
         
           <img
             src="/assets/desktop/chatbot.svg"
@@ -31,14 +31,14 @@ const Main = () => {
           {/* box-3 */}
           <img
             src="/assets/images/fox2.svg"
-            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
+            className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64 cursor-pointer  sm:flex"
             alt=""
           />
-          <img
+          {/* <img
             src="/assets/images/fox-sm-2.svg"
             className="h-auto w-[10rem] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
-          />
+          /> */}
         
           <img
             src="/assets/desktop/market.svg"
@@ -67,14 +67,14 @@ const Main = () => {
           {/* fox-2 */}
           <img
             src="/assets/images/fox3.svg"
-            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64 cursor-pointer hidden sm:flex"
+            className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64 cursor-pointer  sm:flex"
             alt=""
           />
-          <img
+          {/* <img
             src="/assets/images/fox-sm-3.svg"
             className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
-          />
+          /> */}
           <img
             src="/assets/box3.svg"
             className="hidden group-hover:sm:flex group-hover:hidden  absolute top-[13.4rem] right-[-2rem] sm:right-0 md:left-[-9rem] xl:left-[-3rem]"
@@ -88,14 +88,14 @@ const Main = () => {
           {/* fox-4 */}
           <img
             src="/assets/images/fox4.svg"
-            className="h-auto w-[7rem] sm:w-36 md:h-60 md:w-64  cursor-pointer hidden sm:block"
+            className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64  cursor-pointer  sm:block"
             alt=""
           />
-            <img
+            {/* <img
             src="/assets/images/fox-sm-4.svg"
             className="h-auto w-[10rem] sm:w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
-          />
+          /> */}
           <img
             src="/assets/desktop/sniper.svg"
             className="hidden group-hover:sm:flex group-hover:hidden absolute  top-[-11rem]  " alt=""
