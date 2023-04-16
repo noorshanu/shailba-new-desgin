@@ -7,7 +7,7 @@ const Tokenomics = () => {
         <h1 className="text-4xl  font-orbitron font-bold  text-white  text-center mx-auto">
           Tokenomics
         </h1>
-        <p className="text-sm font-poppins mt-8 md:w-[75%] mx-auto">
+        <p className="text-sm font-poppins mt-8 md:w-[75%] mx-auto backdrop-blur-[20px]">
           The $SHAI tokenomics is based on the Real Yield: the real yield
           strategy enables you to generate income with less worry concerning
           token value and other common risks of DeFi yield farming. $SHAI will
