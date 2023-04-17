@@ -14,9 +14,9 @@ function Footer() {
             </div>
           </div>
           <div className="mt-7 flex justify-between items-center flex-wrap text-center font-orbitron text-white text-sm sm:text-lg">
-            <p>About Us</p>
-            <p>Tokenomics</p>
-            <p>Roadmap</p>
+            <a href="#about">About Us</a>
+            <a href="#token">Tokenomics</a>
+            <a href="#roadmap">Roadmap</a>
           </div>
         </div>
         <img src="/assets/images/line.png" className="w-full hidden sm:flex h-auto my-16"  alt=""/>
@@ -26,12 +26,7 @@ function Footer() {
             <FaTwitter />
           </div>
 
-          <div className="hidden sm:flex">
-            <p className="mr-4">Terms & Conditions</p>
-            <p>Privacy Policy</p>
-          </div>
-            <p className="flex sm:hidden">Terms & Conditions</p>
-            <p className="flex sm:hidden">Privacy Policy</p>
+      
           <p>2023 All right reserved</p>
         </div>
       </div>
