@@ -102,7 +102,7 @@ const Main = () => {
           />
           <img
             src="/assets/box4-sm.svg"
-            className="hidden group-hover:flex z-50  group-hover:sm:hidden absolute scale-[1.5] w-[100px]  top-[3rem] left-[-6.7rem] " alt=""
+            className="hidden group-hover:flex z-50  group-hover:sm:hidden absolute scale-[1.5] w-[90px]  top-[3rem] left-[-6.7rem] " alt=""
           />
         </div>
       </div>
