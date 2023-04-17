@@ -19,12 +19,21 @@ const Tokenomics = () => {
         <div className="w-full h-fit">
           <img
             className="w-full h-auto "
-            src="/assets/images/tokenomic-box.png" alt=""
+            src="/assets/images/tokenomic-box.png"
+            alt=""
           />
         </div>
-        <img src="/assets/images/chart.png" className="z-2" style={{zIndex:'2'}} alt="" />
-        <div  className="block sm:hidden w-[100%] top-[384px] left-0 h-[420px] overflow-hidden absolute z-0 " alt="" style={{background: 'rgb(16 2 61)',
-filter:' blur(112.5px)'}} ></div>
+        <img
+          src="/assets/images/chart.png"
+          className="z-2 scale-[1.2] sm:scale-100"
+          style={{ zIndex: "2" }}
+          alt=""
+        />
+        <div
+          className="block sm:hidden w-[100%] top-[384px] left-0 h-[420px] overflow-hidden absolute z-0 "
+          alt=""
+          style={{ background: "rgb(16 2 61)", filter: " blur(112.5px)" }}
+        ></div>
       </div>
     </div>
   );
