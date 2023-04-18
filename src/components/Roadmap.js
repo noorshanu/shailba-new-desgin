@@ -31,7 +31,7 @@ const Roadmap = () => {
             className="flwx sm:hidden text-white w-6 h-auto absolute left-0 top-24 cursor-pointer "
           />
           <div>
-            <img src="/assets/images/box1.png" className="hidden sm:flex" alt="" />
+            <img src="/assets/images/box11.png" className="hidden sm:flex" alt="" />
           </div>
           <div>
             {box == 0 ? (
@@ -53,7 +53,7 @@ const Roadmap = () => {
             <img src="/assets/images/box2.png" className="hidden sm:flex" alt=""/>
           </div>
           <div>
-            <img src="/assets/images/box3.png" className="hidden sm:flex" alt="" />
+            <img src="/assets/images/box33.png" className="hidden sm:flex" alt="" />
           </div>
           <ArrowRightIcon
             onClick={() => setBox((e) => (e == 2 ? 0 : ++e))}
