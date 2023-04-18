@@ -27,8 +27,7 @@ function Footer() {
           </div>
 
           <div className="hidden sm:flex">
-            <p className="mr-4">Terms & Conditions</p>
-            <p>Privacy Policy</p>
+        
           </div>
             
           <p className="mx-auto">2023 All right reserved</p>
