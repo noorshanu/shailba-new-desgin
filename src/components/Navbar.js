@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="">
         <div className="flex items-center justify-between  py-3 md:justify-start md:space-x-10">
           <div className="flex font-orbitron text-white font-[600] text-xl items-center">
-            <img src="/assets/logos/logo.svg" className="mr-2 w-[179px] sm:w-[100%]" alt="" />
+            <img src="/assets/logos/logo.svg" className="mr-2 w-[218px] sm:w-[100%]" alt="" />
            
           </div>
           <Popover.Group
