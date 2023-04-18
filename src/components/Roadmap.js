@@ -9,11 +9,11 @@ const Roadmap = () => {
     <>
       <div className="blue-grad sm:visible invisible"></div>
       <div className="sm:pt-28 pt-8 z-10">
-        <div className=" text-center  text-white flex flex-col justify-center backdrop-blur-md" id="about" >
+        <div className=" text-center  text-white flex flex-col justify-center " id="about" >
           <h1 className="text-3xl font-orbitron font-bold md:w-[600px] mx-auto">
             Revolutionizing the crypto world with ShAIba
           </h1>
-          <p className="text-sm font-poppins mt-8 md:w-[75%] mx-auto px-10 sm:px-0">
+          <p className="text-sm font-poppins mt-8 md:w-[75%] mx-auto px-10 sm:px-0 ">
             Welcome to $SHAI world - we deliver 4 AI pocket telegram bots that
             make operating in the web3 world much effortless. With real-time
             information on coins, market trends, and popular Twitter users,
