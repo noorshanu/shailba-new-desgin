@@ -22,7 +22,7 @@ export default function Navbar() {
           </div>
           <Popover.Group
             as="nav"
-            className="hidden md:flex-1 justify-center md:flex "
+            className="hidden md:flex-1 justify-center md:flex items-center "
           >
             <div className="w-fit mx-auto space-x-10 bg-white   px-10 py-5 bg-opacity-[0.07] font-orbitron rounded-full">
               {navItems.map((nav, i) => {
