@@ -12,7 +12,7 @@ const Main = () => {
             alt=""
           />
           <img
-            src="/assets/mobo/chat-sm.png"
+            src="/assets/mobo/chat-sm.svg"
             className="h-auto w-[8rem] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
