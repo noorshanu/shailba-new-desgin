@@ -24,7 +24,7 @@ export default function Navbar() {
             as="nav"
             className="hidden md:flex-1 justify-center md:flex "
           >
-            <div className="w-fit mx-auto space-x-10 bg-white   px-10 py-5 bg-opacity-[0.07] rounded-full">
+            <div className="w-fit mx-auto space-x-10 bg-white   px-10 py-5 bg-opacity-[0.07] font-orbitron rounded-full">
               {navItems.map((nav, i) => {
                 return (
                   <a
@@ -98,13 +98,13 @@ export default function Navbar() {
               </div>
             </div>
             <div className=" py-4 px-2">
-              <div className="mb-2 grid grid-cols-1 gap-y-1 gap-x-1">
+              <div className="mb-2 grid grid-cols-1 gap-y-1 gap-x-1 font-orbitron">
                 {navItems.map((nav, i) => {
                   return (
                     <a
                       key={i}
                       href={nav.route}
-                      className={`rounded-md py-2 px-2 text-base font-medium  text-white hover:bg-white hover:bg-opacity-[0.07]
+                      className={`rounded-md font-orbitron py-2 px-2 text-base font-medium  text-white hover:bg-white hover:bg-opacity-[0.07]
                         `}
                     >
                       {/* false ? " text-pink-400 bg-gray-900 " : "" */}
