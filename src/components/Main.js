@@ -77,7 +77,7 @@ const Main = () => {
           />
           <img
             src="/assets/box3.svg"
-            className="hidden group-hover:sm:flex group-hover:hidden  absolute top-[13.4rem] w-[114px] right-[-2rem] sm:right-0 md:left-[-7rem] xl:left-[-3rem]"
+            className="hidden group-hover:sm:flex group-hover:hidden  absolute top-[13.4rem]  right-[-2rem] sm:right-0 md:left-[-7rem] xl:left-[-3rem]"
         alt=""  />
           <img
             src="/assets/box2-sm.svg"
