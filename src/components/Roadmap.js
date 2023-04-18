@@ -28,7 +28,7 @@ const Roadmap = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 relative">
           <ArrowLeftIcon
             onClick={() => setBox((e) => (e == 0 ? 2 : --e))}
-            className="flwx sm:hidden text-white w-6 h-auto absolute left-2 top-24 cursor-pointer "
+            className="flwx sm:hidden text-white w-6 h-auto absolute left-0 top-24 cursor-pointer "
           />
           <div>
             <img src="/assets/images/box1.png" className="hidden sm:flex" alt="" />
@@ -37,17 +37,17 @@ const Roadmap = () => {
             {box == 0 ? (
               <img
                 src="/assets/images/box1.png"
-                className="mx-auto w-[80%] sm:w-auto flex sm:hidden" alt=""
+                className="mx-auto w-[90%] sm:w-auto flex sm:hidden backdrop-blur-md" alt=""
               />
             ) : box == 1 ? (
               <img
                 src="/assets/images/box2.png"
-                className="mx-auto w-[80%] sm:w-auto flex sm:hidden" alt=""
+                className="mx-auto w-[90%] sm:w-auto flex sm:hidden backdrop-blur-md" alt=""
               />
             ) : (
               <img
                 src="/assets/images/box3.png"
-                className="mx-auto w-[80%] sm:w-auto flex sm:hidden" alt=""
+                className="mx-auto w-[90%] sm:w-auto flex sm:hidden backdrop-blur-md" alt=""
               />
             )}
             <img src="/assets/images/box2.png" className="hidden sm:flex" alt=""/>
@@ -57,7 +57,7 @@ const Roadmap = () => {
           </div>
           <ArrowRightIcon
             onClick={() => setBox((e) => (e == 2 ? 0 : ++e))}
-            className="flwx sm:hidden text-white w-6 h-auto absolute right-2 top-24 cursor-pointer "
+            className="flwx sm:hidden text-white w-6 h-auto absolute right-0 top-24 cursor-pointer "
           />
         </div>
       </div>
