@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       
-      <div className="mt-20 flex flex-col">
+      <div className=" flex flex-col mt-14 sm:mt-96">
         <div className="px-5 mx-auto max-w-[30rem] w-full  flex-col ">
           <div className="flex justify-center sm:justify-center w-full items-center">
             <img src="/assets/logos/logo.svg" alt="" className="hidden"/>
