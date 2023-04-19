@@ -35,7 +35,7 @@ const Main = () => {
             alt=""
           />
           <img
-            src="/assets/mobo/market-sm.png"
+            src="/assets/mobo/comp-sm.png"
             className="h-auto w-[8rem] sm:w-40 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
@@ -71,7 +71,7 @@ const Main = () => {
             alt=""
           />
           <img
-            src="/assets/mobo/comp-sm.png"
+            src="/assets/mobo/market-sm.png"
             className="h-auto w-[8rem] sm:w-36 md:h-60 md:w-64 cursor-pointer flex sm:hidden"
             alt=""
           />
