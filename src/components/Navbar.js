@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import { FireIcon } from "@heroicons/react/24/solid";
-import { Bars3Icon, XMarkIcon, WalletIcon } from "@heroicons/react/24/outline";
+
+import { Bars3Icon, XMarkIcon, } from "@heroicons/react/24/outline";
 import {FaTwitter,FaTelegramPlane} from 'react-icons/fa'
 
 let navItems = [
