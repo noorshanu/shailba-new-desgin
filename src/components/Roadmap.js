@@ -18,7 +18,7 @@ const Roadmap = () => {
           </h1>
           <p className="text-sm font-poppins mt-8 md:w-[75%] mx-auto px-10 sm:px-0 ">
             Welcome to the world of $SHAI - we deliver four AI-powered Telegram
-            bots that make operating in the Web3 world much more effortless.
+            bots that make operating in the Web3 world effortlessly.
             With real-time information on coins, market trends, and popular
             Twitter accounts, shAIba is the tool you need to stay ahead of the
             game. And that's not all! The $SHAI token provides real-yield
