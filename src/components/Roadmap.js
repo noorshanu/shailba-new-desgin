@@ -17,12 +17,12 @@ const Roadmap = () => {
             Revolutionizing the crypto world with ShAIba
           </h1>
           <p className="text-sm font-poppins mt-8 md:w-[75%] mx-auto px-10 sm:px-0 ">
-            Welcome to the world of $SHAI - we deliver four AI-powered Telegram
-            bots that make operating in the Web3 world effortlessly.
-            With real-time information on coins, market trends, and popular
-            Twitter accounts, shAIba is the tool you need to stay ahead of the
-            game. And that's not all! The $SHAI token provides real-yield
-            opportunities to its holders. Join the AI revolution with $SHAI!
+            Welcome to the world of $SHAI! Four AI-powered Telegram bots that
+            help you operate in the Web3 world effortlessly. Consisting of
+            real-time information on coins, market trends, popular Twitter
+            accounts and more. ShAIba is the tool you need to stay ahead of the
+            game. The $SHAI token provides real-yield opportunities to its
+            holders. Join the AI revolution with $SHAI!
           </p>
         </div>
         <h1
@@ -64,14 +64,14 @@ const Roadmap = () => {
               />
             )}
             <img
-              src="/assets/images/box22.png"
+              src="/assets/images/box22.svg"
               className="hidden sm:flex"
               alt=""
             />
           </div>
           <div>
             <img
-              src="/assets/images/box33.png"
+              src="/assets/images/box33.svg"
               className="hidden sm:flex"
               alt=""
             />
