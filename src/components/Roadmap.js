@@ -37,19 +37,19 @@ const Roadmap = () => {
             {box == 0 ? (
                  <img
                  src="/assets/images/box2.png"
-                 className="mx-auto w-[90%] sm:w-auto flex sm:hidden backdrop-blur-md" alt=""
+                 className="mx-auto w-[90%] sm:w-auto flex sm:hidden " alt=""
                />
             
              
             ) : box == 1 ? (
               <img
                src="/assets/images/box3.png"
-               className="mx-auto w-[90%] sm:w-auto flex sm:hidden backdrop-blur-[4px]" alt=""
+               className="mx-auto w-[90%] sm:w-auto flex sm:hidden " alt=""
              />
             ) : (
               <img
                 src="/assets/images/box1.png"
-                className="mx-auto w-[90%] sm:w-auto flex sm:hidden backdrop-blur-[4px]" alt=""
+                className="mx-auto w-[90%] sm:w-auto flex sm:hidden " alt=""
               />
             )}
             <img src="/assets/images/box22.png" className="hidden sm:flex" alt=""/>
