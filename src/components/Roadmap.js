@@ -64,7 +64,7 @@ const Roadmap = () => {
               />
             )}
             <img
-              src="/assets/images/box22.svg"
+              src="/assets/images/box22.png"
               className="hidden sm:flex"
               alt=""
             />
