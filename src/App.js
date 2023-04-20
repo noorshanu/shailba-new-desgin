@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Main from "./components/Main.js";
 import Roadmap from "./components/Roadmap.js";
 import Tokenomics from "./components/Tokenomics";
+import Cta from "./components/Cta";
 
 function App() {
   return (
@@ -11,10 +12,12 @@ function App() {
         <div className=" mx-auto  max-w-7xl px-3 md:px-10  ">
           <Navbar />
           <Main />
+         
         </div>
       </div>
       <div className="h-[auto]  sm:bg-[url('../public/assets/images/bg-full.png')] bg-transparent bg-cover">
         <div className=" mx-auto  max-w-7xl px-3 md:px-10  ">
+        <Cta/>
           <Roadmap />
         </div>
         <div className="sm:bg-none bg-[url('../public/assets/images/bg-tokenomic.png')] bg-cover">

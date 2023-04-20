@@ -20,7 +20,42 @@ body{
   filter: blur(26.5px);
   width: 100%;
   height: 118px;
-  margin-top: -66px;
+  margin-top: -180px;
   overflow: hidden;
   left: 0px;
 }
+
+/* cta button */
+
+
+.cta-btn {
+  width: 136px;
+  height: 81px;
+  font-size: 18px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  background-image: url('../public/assets/logos/button.png');
+  transition: background 1s ease;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #fff;
+}
+
+.cta-btn:hover{
+  width: 136px;
+  height: 81px;
+  display: flex;
+  justify-content: center;
+  background-image: url('../public/assets/logos/btn-white.png');
+  color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cta-btn p{
+  margin-top: 11px;
+}
+
+
+
