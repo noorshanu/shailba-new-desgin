@@ -9,8 +9,10 @@ function Footer() {
           <div className="flex justify-center sm:justify-center w-full items-center">
             <img src="/assets/logos/logo.svg" alt="" className="hidden"/>
             <div className="flex sm:hidden text-white">
-              <FaTelegramPlane className="mr-3" />
-              <FaTwitter />
+              <a href="https://t.me/shaibaio"><FaTelegramPlane className="mr-3" /></a>
+              
+              <a href="https://twitter.com/shaibaio"><FaTwitter /></a>
+              
             </div>
           </div>
        
@@ -18,8 +20,8 @@ function Footer() {
         <img src="/assets/images/line.png" className="w-full flex h-auto my-2" alt="" />
         <div className="mb-1 flex justify-center items-center flex-wrap font-orbitron text-[#CCD2E9] text-[9px] sm:text-base">
           <div className="hidden sm:flex text-white text-lg">
-            <FaTelegramPlane className="mr-3" />
-            <FaTwitter />
+          <a href="https://t.me/shaibaio"><FaTelegramPlane className="mr-3" /></a>
+          <a href="https://twitter.com/shaibaio"><FaTwitter /></a>
           </div>
 
           <div className="hidden sm:flex">
